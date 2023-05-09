@@ -22,7 +22,7 @@ function  App() {
     
     console.log("inside submit");
     console.log(d.name)
-    axios.post(`http://localhost:5000`,{name:d.name})
+    axios.post(`https://weather-app-api-1aiy.onrender.com`,{name:d.name})
    .then((res)=>{
     console.log(res.data)
     setweather(res.data);
