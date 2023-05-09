@@ -57,9 +57,9 @@ console.log(response)
             name="name"  required id="name"
             onChange={(e)=>sendname(e)}
             value={d.name}/>
-           <button type="submit" className="buttongo">Go</button>          
+            <button type="submit" className="button-go">Go</button> 
            </div>
-
+              
            {(typeof weather.main != "undefined")?
            (
         <div>

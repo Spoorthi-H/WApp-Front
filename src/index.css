@@ -26,13 +26,14 @@ main {
 }
 
 .search-box {
-  width: 80%;
+  width: 100%;
   margin: 0 0 75px;
 }
 
 .search-box .search-bar {
-  
-  width: 90%;
+  display: inline-block;
+
+  width: 60%;
   padding: 15px;
 
   appearance: none;
@@ -93,7 +94,7 @@ main {
   font-weight: 700;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
 }
-.buttongo{
+.search-box .button-go{
   display: inline-block;
   padding: 15px;
   cursor: pointer;
@@ -108,9 +109,9 @@ main {
   font-size: 20px;
   margin-top: -25px;
 }
-.buttongo:hover {background-color:rgba(213, 218, 220, 0.75)}
+.search-box .button-go:hover {background-color:rgba(213, 218, 220, 0.75)}
 
-.buttongo:active {
+.search-box .button-go:active {
   background-color:rgba(255, 255, 255, 0.75);
   box-shadow: 0 5px #666;
   transform: translateY(4px);
